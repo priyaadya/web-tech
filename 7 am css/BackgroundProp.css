@@ -1,0 +1,17 @@
+.mydiv
+{
+    height:500px;
+    background-color: red;
+    background-image: linear-gradient(hsla(145, 100%, 50%, 0.705),rgba(0, 128, 64, 0.719)),url("./assets/images/kantara.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:scroll;  
+
+}
+
+.mydiv1
+{
+    height:400px;
+    background-image: radial-gradient(rgba(140, 0, 255, 0.76),rgba(187, 71, 90, 0.856),rgba(6, 94, 6, 0.863),rgb(20, 219, 30));
+   
+}

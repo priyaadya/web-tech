@@ -1,0 +1,26 @@
+/* div,section
+{
+    background-color: red;
+    display: inline;
+}
+
+a,span
+{
+    background-color: green;
+    display: block;
+    
+} */
+
+ div
+{
+    height:200px;
+    width:200px;
+    background-color: red;
+    margin:20px;
+    font-size:50px;
+    text-align:center;
+    color:white;
+    display: inline-block;
+
+     
+}

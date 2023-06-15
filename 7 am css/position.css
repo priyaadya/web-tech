@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: red;
+}
+
+section
+{
+    width:600px;
+    height:600px;
+    background-color: green;
+    margin:100px auto;
+    padding:80px;
+}
+
+
+div
+{
+    width:400px;
+    height:400px;
+    background-color: aqua;
+    padding:80px;
+    position:relative;
+    
+
+}
+
+p
+{
+    width:200px;
+    height:200px;
+    background-color: hotpink;
+    position:absolute;
+    top:20px;
+    left:5px;
+
+}

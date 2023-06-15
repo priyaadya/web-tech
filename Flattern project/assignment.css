@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:100%;
+    height:100%;
+    border:2px solid red;
+}
+.mysession
+{
+    border:2px solid red;
+    height:1000px;
+    width:1000px;
+    margin:20px auto;
+    justify-content: center;
+}
+
+.myapp
+{
+    border:2px solid green;
+    height:200px;
+    width:600px;
+    margin:20px auto;
+    justify-content: center;
+
+}
+.btn
+{
+    /* border:2px solid yellow; */
+    height:40px;
+    width:60px;
+   display:inline-block;
+   margin:20px;
+   padding:10px 10px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: white;
+   transition: background-color 2s;
+   
+   
+}
+
+.btn:hover
+{
+    background-color: orangered;
+}
+
+
+.mydiv
+{
+    border:2px solid red;
+    height:800px;
+    width:900px;
+    margin:20px auto;
+    display:inline-block;
+
+    
+}
+
+.mydiv1
+{
+
+    
+}
+
+img{
+    height:200px;
+    width:300px;
+    border:2px solid red;
+    margin:10px;
+    
+  
+}

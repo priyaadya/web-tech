@@ -1,0 +1,27 @@
+.heading
+{
+    color:red;
+    height:200px;
+    width:200px;
+    border:10px solid green;
+    outline: 10px solid yellow;
+    padding: 20px;
+    margin:50px;
+    
+}
+.my-styles
+{
+    background-color: blue;
+    height:200px;
+    width:200px;
+    border:5px solid red;
+    border-radius: 20px 80px;
+
+
+}
+.img-styles
+{
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+}

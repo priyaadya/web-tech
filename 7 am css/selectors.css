@@ -1,0 +1,84 @@
+/* elemet selector */
+
+/* h1
+{
+    color:green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+}
+p{
+    color:green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+
+} */
+
+/* Group selector */
+/* h1,p,a
+{
+    color:green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+}
+ */
+
+
+ /* class selector */
+
+ /* p.good
+ {
+    color:green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+
+ } */
+
+
+
+ /* generic class selector */
+
+ /* .good
+ {
+    color:green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+    background-color: pink;
+
+ } */
+
+/* 
+ id selector */
+
+
+ /* #bad
+ {
+    color:rgb(0, 2, 128);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px  red;
+
+ } */
+
+ /* child selector */
+
+
+ /* h1 p
+ {
+    color:red;
+ } */
+
+
+
+ /* universal selector */
+
+
+ *
+ {
+    color:blue;
+    background-color:orange;
+ }

@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+section{
+    height:500px;
+    width:600px;
+    display:flex;
+    justify-content:space-between;
+    background-color: white;
+
+}
+
+img{
+    height:500px;
+    width:550px;
+}
+
+form{
+    margin:40px;
+    
+}
+.fn{
+    height:30px;
+    width:550px;
+    margin:20px;
+
+}
+.ln{
+    height:30px;
+    width:550px;
+    margin:20px;
+    
+}
+
+.email{
+    height:30px;
+    width:550px;
+    margin:20px;
+}
+.re{
+    height:30px;
+    width:250px;
+    display:flex;
+    margin:20px;
+}
+
+.pn{
+    display:inline-block;
+    margin:20px;
+
+
+}
+
+.sp{
+    height:30px;
+    width:550px;
+    margin:20px;
+
+}

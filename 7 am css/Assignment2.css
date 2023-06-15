@@ -1,0 +1,26 @@
+*
+{
+    margin:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+.good
+{
+    height: 500px;
+    width:1000px;
+    background-color: red;
+
+}
+img
+{
+    height:250px;
+    width:350px;
+    margin-left: 650px;
+    padding:20px;
+}
+h1
+{
+    height:250px;
+    width:250px;
+}

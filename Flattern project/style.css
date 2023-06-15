@@ -1,0 +1,539 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri light;
+}
+
+html,body {
+    width: 100%;
+}
+
+/*
+header starts */
+
+
+header {
+    /* border:2px solid red; */
+    background-color: rgba(211, 211, 211, 0.33);
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-contact,
+.header-icons {
+    /* border:2px solid purple; */
+    margin: 2px 5px;
+    width: 600px;
+}
+
+.header-icons {
+    text-align: right;
+}
+
+.header-icons i {
+    margin-left: 10px;
+    color: gray;
+    font-size: 20px;
+}
+
+.header-icons i {
+    margin-left: 10px;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.header-icons a {
+    text-decoration: none;
+
+}
+
+.header-contact a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.header-contact a i {
+    color: orangered;
+    font-size: 15px;
+}
+
+/* header ends */
+/*
+navbar starts */
+
+nav {
+    background-color: rgb(241, 187, 7);
+    padding: 10px;
+    position:sticky;
+    top: 0px;
+    z-index: 99999;
+}
+
+nav ul {
+    /* border:2px solid blue; */
+    display: inline-block;
+    margin-left: 274px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .2s;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+nav .logo {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin-left: 90px;
+
+}
+
+/* navbar ends */
+
+/* banner starts */
+
+
+.banner {
+    background-color: red;
+    height: 450px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.073), rgba(0, 0, 0, 0.116)), url("https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_960_720.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+.banner-content
+{
+    background-color: rgba(0,0,0,0.4777);
+    color:white;
+    width:750px;
+    padding:40px 40px 30px 13px;
+    border-top: 5px solid orangered;
+
+}
+
+.banner-content .btn
+{
+    /* border: 2px solid red; */
+    padding:10px 30px;
+    width:200px;
+    margin:5px auto;
+
+}
+
+.banner-content a
+{
+    color:white;
+    border:2px solid orangered;
+    padding:10px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: background-color .3s;
+}
+.banner-content a:hover
+{
+    background-color: orangered;
+}
+
+.banner-content p
+{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500px;
+}
+
+.banner-content h1
+{
+    font-size: 30px;
+}
+
+/* Banner ends */
+
+
+/* request starts */
+
+.request
+{
+    background-color: rgba(211, 211, 211, 0.349);
+    display:flex;
+    padding:30px 100px;
+    justify-content: space-around;
+}
+
+.request-text
+{
+    /* border:2px solid red; */
+    width:900px;
+    margin:20px;
+    text-align: center;
+}
+
+.request-text h1
+{
+    font-size: 35px;
+}
+
+.request-text p
+{
+    font-size: 18px;
+    font-weight:500;
+    margin-top: 6px;
+}
+
+.request-btn
+{
+    /* border:2px solid red; */
+    width:250px;
+    margin:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.request-btn a
+{
+    border:2px solid orangered;
+    background-color: white;
+    text-decoration: none;
+    color:orangered;
+    padding:10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: background-color .3s,color .3s;
+}
+
+.request-btn a:hover
+{
+    background-color: orangered;
+    color:white;
+}
+
+/* request ends */
+
+
+/* cards start */
+
+.cards
+{
+    /* border:2px solid green; */
+    margin:30px 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+
+}
+
+.cards .card
+{
+    border:1px solid red;
+    height:230px;
+    width:350px;
+    margin:15px;
+    background-color: rgba(211, 211, 211, 0.111);
+    padding:25px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 40px;
+    position:relative;
+}
+
+.cards .card h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:orangered;
+}
+
+.cards .card p
+{
+    font-size: 18px;
+}
+
+.cards .card i
+{
+    border:2px solid orangered;
+    padding:17px;
+    border-radius: 100%;
+    background-color: orangered;
+    font-size: 25px;
+    transition:all .3s;
+    color:white;
+    position:absolute;
+    top: -38px;
+    left: 135px
+
+}
+
+.cards .card:hover i
+{
+    background-color: white;
+    color:orangered;
+    border:2px solid orangered;
+
+
+}
+
+
+
+/* clients starts */
+
+
+.clients
+{
+    /* border: 2px solid red; */
+    margin: 50px 100px;
+
+
+}
+
+.clients h1
+{
+    font-size: 35px;
+    text-align: center;
+
+}
+
+
+.clients p
+{
+    font-size:20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.clients main
+{
+    /* border:2px solid purple; */
+    display:flex;
+     flex-wrap:wrap;
+    justify-content: center;  
+}
+
+
+ .clients main div
+{
+    border:1px solid lightgray;
+    width:285px;
+    height:120px;
+    padding:10px 20px;
+    text-align: center; 
+
+
+}
+
+.clients main div img
+{
+
+    width:100px;
+    filter:grayscale(100%);
+    margin-top: 25px;
+    transition: all 1s;
+}  
+
+.clients main div:hover img
+{
+    filter:none;
+    transform: scale(1.2);
+    
+}
+
+
+/* clients ends */
+
+
+
+/* address start */
+
+.address
+{
+    background-color: black;
+    color:white;
+    padding:60px 80px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.contact-details, .useful-links, .our-services, .newsletter
+{
+    /* border:1px solid white; */
+    width:200px;
+}
+
+
+.newsletter
+{
+    width:350px;
+
+}
+
+.contact-details .para
+{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.contact-details p
+{
+    font-size: 18px;
+}
+
+.useful-links ul,.our-services ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+
+
+}
+
+.useful-links ul li , .our-services ul li 
+{
+    margin-bottom: 20px;
+}
+
+.useful-links ul li a,  .our-services ul li a
+{
+    color:white;
+    text-decoration: none;
+}
+
+
+.useful-links ul li i,.our-services ul li i
+{
+    color:orangered;
+    font-size: 13px;
+    margin-right: 10px;
+
+}
+
+
+.newsletter p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter div
+{
+    /* border:2px solid red; */
+    position:relative
+
+}
+.newsletter div input
+{
+    padding:15px 40px;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+}
+
+.newsletter div button
+{
+    padding:12px 20px;
+    background-color: orangered;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    right:0px;
+    border:none;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+/* adddress ends */
+
+
+/* footer starts */
+
+footer
+{
+    background-color: rgb(52,42,42);
+    color:white;
+    padding:40px 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+footer .icons
+{
+    /* border:2px solid white; */
+    margin:20px;
+    width:45%;
+    text-align: right;
+}
+
+footer .icons a
+{
+    color:white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: orangered;
+    padding:10px 15px;
+    margin-left: 5px;
+    border-radius: 100%;
+
+}
+
+
+/* foooter ends */
+
+
+/* goto home start */
+
+.gotohome
+{
+    background-color: orangered;
+    width:50px;
+    height:50px;
+    padding:20px;
+    border-radius: 5px;
+    position:fixed; 
+    bottom: 30px;
+    right:30px;
+    z-index: 999999;
+
+}
+.gotohome a 
+{
+    color:white;
+    text-decoration: none;
+}
+
+
+/* goto home ends */

@@ -1,0 +1,38 @@
+*
+{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+
+section{
+     background-image: linear-gradient(rgba(12, 12, 12, 0.548),rgba(19, 18, 18, 0.452)),url(./media/bg\ image.jpg); 
+
+    height:768px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+svg{
+    height:32px;
+    width:92px;
+    fill:red;
+    margin:20px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+select{
+    height:40px;
+    width:90px;
+    margin:20px;
+}
+
+div i{
+    margin:0px;
+
+}

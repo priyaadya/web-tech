@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+
+.box1{
+    /* border:1px solid red; */
+    height:50px;
+    width:300px;
+    background-color: orange;
+}
+
+.box2{
+    /* border:1px solid green; */
+    height:50px;
+    width:300px;
+    background-color: white;
+}
+
+.box3{
+    /* border:1px solid pink; */
+    height:50px;
+    width:300px;
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
+
+.box1,.box2,.box3
+{ 
+    margin:1px auto;
+    position:relative;
+  
+}
+
+section
+{
+    margin-top:30px;
+}
+
+section img{
+    width:50px;
+    position:absolute;
+    right:120px;
+}

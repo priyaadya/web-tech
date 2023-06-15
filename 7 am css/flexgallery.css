@@ -1,0 +1,57 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width:100%;
+
+}
+
+body
+{
+    background-color:black;
+}
+
+.gallery
+{
+    border:5px groove aqua;
+    margin:50px;
+    padding:50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-image
+{
+    border:2px solid yellow;
+    width:250px;
+    height:250px;
+    margin:20px;
+    box-shadow: 2px 2px 40px 2px white;
+    overflow: hidden;
+    
+
+
+}
+.gallery-image img
+{
+    width:100%;
+    height:100%;
+    transition:transform 1s;
+}
+
+.gallery-image:hover img
+{
+    transform:scale(1.2);
+
+
+}
+
+h1
+{
+    text-align: center;
+    color:white;
+}
